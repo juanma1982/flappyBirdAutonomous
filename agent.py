@@ -25,7 +25,7 @@ class Agent:
             self.flappybird.releaseKey()
 
     def myRandom(self):
-        return random.randint(0, 2)
+        return random.randint(0, 10)
 
     def observeworld(self):
         positions = self.flappybird.getWorldPositionObjets()
