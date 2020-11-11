@@ -18,6 +18,7 @@ class Agent:
      """
 
     def act(self): 
+        self.observeworld()
         if self.myRandom() == 2:
             self.flappybird.holdKeyDown()        
         else:
@@ -39,7 +40,6 @@ class Agent:
     def run(self):  
         self.flappybird.initGame()
         while True:
-            self.flappybird.eachCicle()
-            self.observeworld()
+            self.flappybird.eachCicle()            
             self.act()
 
