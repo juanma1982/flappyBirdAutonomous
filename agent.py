@@ -31,9 +31,9 @@ class Agent:
         positions = self.flappybird.getWorldPositionObjets()
         print("Upper block: ", positions[0])
         print("Bottom block: ", positions[1])
-        print("Bird: ", positions[0])
+        print("Bird: ", positions[2])
         print("Count: ",self.flappybird.counter)
-        print("Dead: ",self.flappybird.dead)
+        print("Dead: ", self.flappybird.dead)
 
 
 
